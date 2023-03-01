@@ -5,7 +5,7 @@ web3 = Web3(Web3.HTTPProvider('')) # - web3 API should be taken from https://inf
 from_account = '' 
 to_account = ''
 
-private_key = '' # - https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key#:~:text=Click%20on%20the%20account%20button,on%20'Show%20private%20key'.
+private_key = '' # - https://support.metamask.io/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key#:~:text=Click%20on%20the%20account%20button,on%20'Show%20private%20key'
 
 address_1 = web3.toChecksumAddress(from_account)
 address_2 = web3.toChecksumAddress(to_account)
